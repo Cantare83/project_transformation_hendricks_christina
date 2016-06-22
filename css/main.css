@@ -1,4 +1,4 @@
-html {
+/*html {
     box-sizing: border-box;
 }
 
@@ -6,7 +6,7 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
-}
+}*/
 
 .site-container {
     max-width: 960px;
@@ -21,7 +21,9 @@ body {
     color: #5b5b5b;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0 0 0 0;
     text-transform: uppercase;
@@ -43,7 +45,9 @@ h3 {
     font-size: 1.6em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     margin-top: 0;
     line-height: 180%;
 }
@@ -129,7 +133,8 @@ a {
     border: none;
 }
 
-#menu a:hover, #menu .current_page_item a {
+#menu a:hover,
+#menu .current_page_item a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #ffffff;
@@ -293,6 +298,23 @@ a {
 
 #sidebar a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 950px) {
+    #content {
+        float: right;
+        width: 65%;
+    }
+
+    #sidebar {
+        float: left;
+        width: 30%;
+    }
+
+    #footer {
+        clear: both;
+        display: block;
+    }
 }
 
 /* Footer */
