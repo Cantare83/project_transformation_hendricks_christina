@@ -59,10 +59,6 @@ a {
 
 /* Header */
 
-#header-wrapper {
-    /*overflow: hidden;*/
-}
-
 #header {
     margin: 0 auto;
     padding: 0 0;
@@ -157,7 +153,6 @@ a {
 }
 
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
 }
