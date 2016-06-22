@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+.site-container {
+    max-width: 960px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -142,6 +146,8 @@ a {
 
 #content {
     padding: 0 0.7em 0 0.7em;
+    width: 100%;
+    margin: auto;
 }
 
 .post {
@@ -213,7 +219,8 @@ a {
 /* Sidebar */
 
 #sidebar {
-    margin: 0;
+    width: 100%;
+    margin: auto;
     padding: 3em 0.7em 0 0.7em;
 }
 
@@ -295,6 +302,11 @@ a {
 
 #footer a {
     color: #5e5e5e;
+}
+
+#banner {
+    width: 100%;
+    margin: auto;
 }
 
 #banner img {
