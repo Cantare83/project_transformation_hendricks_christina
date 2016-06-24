@@ -156,7 +156,6 @@ a {
 
 #content {
     padding: 0 0.7em 0 0.7em;
-    width: 100%;
     margin: auto;
 }
 
@@ -229,7 +228,6 @@ a {
 /* Sidebar */
 
 #sidebar {
-    width: 100%;
     margin: auto;
     padding: 1em 0.7em 0 0.7em;
 }
